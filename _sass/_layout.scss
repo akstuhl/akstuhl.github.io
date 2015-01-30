@@ -233,4 +233,10 @@
             font-size: 18px;
         }
     }
+    
+    img {
+    	float: right;
+    	width: $post-main-image-width;
+    	margin: -110px (-$post-main-image-width / 2) 15px 15px;
+    }
 }
