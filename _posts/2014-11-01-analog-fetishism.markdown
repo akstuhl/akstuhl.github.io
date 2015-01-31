@@ -2,9 +2,10 @@
 layout: post
 title:  "Analog Fetishism"
 date:   2014-11-01 17:15:12
-categories: publication
+categories: publications
+tagline: "journal article"
 ---
-![](http://utpress.utexas.edu/media/k2/items/cache/c82cc4e14a1d2c8c8ffff9840d24b558_L.jpg)
+![](/assets/vlt74.jpg)
 
 My article, "Reactions to Analog Fetishism in Sound-Recording Cultures," appears in the Fall 2014 issue of the [*Velvet Light Trap*](http://utpress.utexas.edu/index.php/journals/the-velvet-light-trap). The article is available, with institutional access, [here through Project Muse](http://muse.jhu.edu/login?auth=0&type=summary&url=/journals/the_velvet_light_trap/v074/74.stuhl.html).
 

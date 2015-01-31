@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: Georgia, Times, serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -28,7 +28,7 @@ $on-palm:          600px;
 $on-laptop:        800px;
 $on-full:		   1000px;
 
-// my changes
+// my additions
 $post-main-image-width: 350px;
 
 
@@ -41,7 +41,7 @@ $post-main-image-width: 350px;
 //     }
 // }
 @mixin media-query($device) {
-    @if $device == $on-full {
+    @if $device >= $on-full {
     	@media screen and (min-width: $device) {
     		@content;
     	}

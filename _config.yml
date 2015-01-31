@@ -2,13 +2,13 @@
 title: Andy Kelleher Stuhl
 email: akstuhl@mit.edu
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a graduate student in [Comparative Media Studies](http://cmsw.mit.edu/) 
-  at MIT and a research assistant in [HyperStudio](http://hyperstudio.mit.edu/).
-  My research centers on creative infrastructures and the politics
+  I'm a graduate student in [Comparative Media Studies at MIT](http://cmsw.mit.edu/) 
+  and a research assistant in [HyperStudio](http://hyperstudio.mit.edu/).
+  My work centers on creative infrastructures and the politics
   of sound technologies, which I explore from various angles within
-  sound studies, design, and the digital humanities.
+  sound studies, interaction design, and the digital humanities.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://akstuhl.github.io" # the base hostname & protocol for your site
 twitter_username: akstuhl
 #github_username:  akstuhl
 
