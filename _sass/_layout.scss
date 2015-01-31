@@ -234,7 +234,7 @@
         }
     }
     
-	@include media-query(full) {
+	@include media-query($on-full) {
 		img {
 			float: right;
 			width: $post-main-image-width;
