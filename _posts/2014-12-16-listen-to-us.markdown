@@ -7,7 +7,7 @@ tagline: "sound artifact"
 ---
 ![](http://akstuhl.net/listentous/img5.jpg) 
 
-"Listen to Us" is an interactive sound artifact, which I completed as my final project for "Resonance: Sonic Experience, Science, and Art"—a course at MIT taught by [Caroline Jones](http://architecture.mit.edu/faculty/caroline-jones) and [Stefan Helmreich](http://web.mit.edu/anthropology/people/faculty/helmreich.html)—and which was included in the second [Curious Sound Objects](curioussoundobjects.com/) show.
+"Listen to Us" is an interactive sound artifact, which I completed as my final project for "Resonance: Sonic Experience, Science, and Art"—a course at MIT taught by [Caroline Jones](http://architecture.mit.edu/faculty/caroline-jones) and [Stefan Helmreich](http://web.mit.edu/anthropology/people/faculty/helmreich.html)—and which was included in the second [Curious Sound Objects](http://curioussoundobjects.com/) show.
 
 Marcel Duchamp claimed, "One can look at seeing, one can't hear hearing." Drawing on the work of other sound artists, "Listen to Us" counters Duchamp's fiction with its own fiction: that hearing can be split, shared, resonated and amplified to the point where we can no longer hear anything outside of each other's hearing.
 
