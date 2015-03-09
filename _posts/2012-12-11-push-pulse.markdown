@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "push/pulse"
-date:   2014-12-16 17:15:12
+date:   2012-12-11 17:15:12
 categories: sound-art
 tagline: "sound artifact"
 ---
