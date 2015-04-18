@@ -5,7 +5,7 @@ date:   2014-12-16 17:15:12
 categories: sound-art
 tagline: "sound artifact"
 ---
-![](http://akstuhl.net/listentous/img5.jpg) 
+![](/assets/listenToUs.jpg) 
 
 "Listen to Us" is an interactive sound artifact, which I completed as my final project for "Resonance: Sonic Experience, Science, and Art"—a course at MIT taught by [Caroline Jones](http://architecture.mit.edu/faculty/caroline-jones) and [Stefan Helmreich](http://web.mit.edu/anthropology/people/faculty/helmreich.html)—and which was included in the second [Curious Sound Objects](http://curioussoundobjects.com/) show.
 
@@ -21,10 +21,10 @@ Besides the two participants, another person or group can listen in on the sound
 example stereo recording:
 <br />
 <audio controls="controls">
-	<a href="http://akstuhl.net/listentous/listenToUsDemo.wav">listenToUsDemo.wav</a>
-	<source src="http://akstuhl.net/listentous/listenToUsDemo.wav" type="audio/wav">
+	<a href="/assets/listenToUsDemo.wav">listenToUsDemo.wav</a>
+	<source src="/assets/listenToUsDemo.wav" type="audio/wav">
 </audio>
 <hr />
 
-[software component](http://akstuhl.net/listentous/ListenToUs.ck) written in [ChucK](http://chuck.stanford.edu/)
+[software component](/assets/ListenToUs.ck) written in [ChucK](http://chuck.stanford.edu/)
 

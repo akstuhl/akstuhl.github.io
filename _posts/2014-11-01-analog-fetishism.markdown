@@ -9,7 +9,7 @@ tagline: "journal article"
 
 My article, "Reactions to Analog Fetishism in Sound-Recording Cultures," appears in the Fall 2014 issue of the [*Velvet Light Trap*](http://utpress.utexas.edu/index.php/journals/the-velvet-light-trap). The article is available, with institutional access, [here through Project Muse](http://muse.jhu.edu/login?auth=0&type=summary&url=/journals/the_velvet_light_trap/v074/74.stuhl.html).
 
-The piece is largely a revision of material from my undergraduate thesis of the same title, which is available [here as PDF](http://akstuhl.net/AndyStuhlThesis.pdf).
+The piece is largely a revision of material from my undergraduate thesis of the same title, which is available [here as PDF](/assets/AndyStuhlThesis.pdf).
 
 I'm thrilled to be included in this great collection of new sound studies work, and was especially lucky to get feedback from an excellent group of reviewers and editors. My abstract is below:
 

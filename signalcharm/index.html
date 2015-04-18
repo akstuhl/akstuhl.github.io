@@ -1,0 +1,173 @@
+<html>
+<head>
+	<title>signal charm</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+	<script src="jquery.color.js"></script>
+</head>
+<body>
+
+	<div id="stanza" class="landing">
+	
+
+
+	</div>
+
+	<script>
+	
+		var wordCount = 20;
+	
+		var iStanza = 0;
+		
+		var stanzas = [
+		
+		{signal:[["signal ", "charm "]], fontSize:"24px"},
+		
+		{signal:[["when ", "the ", "earthquake ", "struck "], ["she ", "had ", "already ", "been ", "stalled ", "for ", "several ", "minutes "]], fontSize:"30px"},
+		
+		{signal:[["the ", "tuner ", "in ", "her ", "radio ", "was ", "failing "], ["her ", "windshield ", "rang ", "out ", "orange ", "with ", "pollen ", "and ", "bird ", "shit "], ["they ", "were ", "stuck ", "in ", "the ", "sunlight "]],
+			fontSize:"24px"},
+		
+		{signal:[["sig ", "was ", "making ", "an ", "awful ", "braying ", "sound "], ["noah ", "eyed ", "his ", "brother ", "silently ", "and ", "angrily "], ["she ", "had ", "turned ", "to ", "smile ", "at ", "the ", "boys "]], fontSize:"24px"},
+			
+		{signal:[["she ", "wanted ", "so ", "much ", "to ", "be ", "there ", "in ", "the ", "cool ", "of ", "the ", "house "], ["she ", "wanted ", "to ", "be ", "watching ", "them ", "through ", "the ", "den ", "window "], ["she ", "wanted ", "so ", "much ", "for ", "warren ", "to ", "take ", "the ", "boys ", "off ", "her ", "hands "]], fontSize:"18px"},
+		
+		{signal:[["and ", "then ", "it ", "struck "]], fontSize:"36px"},
+		
+		{signal:[["the ", "road ", "bellowed "], ["the ", "right ", "front ", "tire ", "popped "], ["sig ", "screamed "], ["up ", "ahead ", "a ", "concrete ", "section ", "fell ", "away "]], fontSize: "18px"},
+		
+		{signal:[["her ", "heel ", "frozen ", "upon ", "the ", "brake ", "pedal "], ["her ", "right ", "arm ", "flailing ", "toward ", "the ", "boys "], ["we're ", "okay ", "she ", "panted "], ["we're ", "okay ", "she ", "said "]], fontSize: "22px"},
+		
+		{signal:[["they ", "were ", "supposed ", "to ", "leave ", "the ", "car ", "she ", "thought "], ["let's ", "leave ", "the ", "car ", "she ", "said "]], fontSize: "26px"},
+		
+		{signal:[["her ", "head ", "hurt "], ["filament ", "cracks ", "etched ", "the ", "tarmac "], ["sig ", "grabbed ", "noah's ", "shoulders ", "and ", "shook ", "him ", "hard "]], fontSize: "24px"},
+		
+		{signal:[["noah ", "hissed ", "and ", "spat ", "at ", "sig "], ["below ", "the ", "freeway ", "a ", "neon ", "sign ", "had ", "crashed ", "to ", "the ", "ground "], ["sirens ", "reverberated ", "off ", "the ", "city's ", "hills "]], fontSize: "20px"},
+		
+		{signal:[["sig ", "running ", "away ", "up ", "the ", "highway "], ["sigmund ", "she ", "tried ", "to ", "yell "], ["her ", "voice ", "stumbling ", "toward ", "her ", "lips "]], fontSize: "23px"},
+		
+		{signal:[["silent ", "little ", "noah ", "said ", "you're ", "bleeding ", "mom "], ["she ", "sat ", "down ", "on ", "the ", "barrier "], ["there ", "was ", "shouting ", "below "]], fontSize: "24px"},
+		
+		{signal:[["she ", "felt ", "a ", "trickle ", "behind ", "her ", "ear "], ["she ", "thought ", "about ", "warren ", "and ", "the ", "house "], ["the ", "sun ", "flooded ", "her ", "vision "]], fontSize: "20px"},
+		
+		{signal:[["noah's ", "hand ", "stroked ", "her ", "leg "], ["the ", "world ", "steadied ", "and ", "hummed "], ["they ", "were ", "going ", "to ", "be ", "okay "]], fontSize: "24px"},
+		
+		{signal:[["the ", "end "]], fontSize:"80px"}
+		
+		];
+
+		
+		var hovered;
+
+		var signal = stanzas[iStanza].signal;
+
+		function highlight(word, range) {
+			console.log(word);
+			var sig = 0;
+			
+			if (signal.length > 1) {
+				var possibleSigs = new Array();
+				for (var i = 0; i < signal.length; i++) {
+					if (signal[i].indexOf(word) != -1) 
+						possibleSigs.push(i);
+				}
+						
+				sig = possibleSigs[Math.floor(Math.random()*possibleSigs.length)];
+			}
+			
+			orig = signal[sig].indexOf(word);
+			hoverPos = $(".signal").index(hovered);
+			
+			var $curr;
+			var marker = hoverPos;
+			
+			for (var i = orig - 1; i >= 0; i--) {
+				$curr = $(".signal").slice(0, marker).filter(":contains('" + signal[sig][i] + "')").last();
+				$curr.addClass("active");
+				marker = $(".signal").index($curr);
+			}
+			
+			marker = hoverPos;
+			
+			for (i = orig + 1; i < signal[sig].length; i++) {
+				$curr = $(".signal").slice(marker).filter(":contains('" + signal[sig][i] + "')").first();
+				$curr.addClass("active");
+				marker = $(".signal").index($curr);
+			}
+			
+			$(".active").css("color", "black");
+		}
+		
+		function unhighlight() {
+			$(".active").css("color", "#CCCCCC").removeClass("active");
+		}
+		
+		function populate() {
+			signal = stanzas[iStanza].signal;
+			document.getElementById("stanza").style.fontSize = stanzas[iStanza].fontSize;
+			var count = 0;
+			var line;
+			var word;
+			var safe;
+			var used = new Array(signal.length);
+			for (var i = 0; i < used.length; i++) {
+				used[i] = new Array(signal[i].length);
+				for (var j = 0; j < used[i].length; j++)
+					used[i][j] = false;
+			}
+			while (count < wordCount) {
+				line = Math.floor(Math.random()*signal.length);
+				word = Math.floor(Math.random()*signal[line].length);
+				safe = true;
+				for (i = 0; i < word; i++) {
+					if (!(used[line][i]))
+						safe = false;
+				}
+				if (safe) {
+					$("#stanza").append("<span class='signal'>" + signal[line][word]);
+					used[line][word] = true;
+					count ++;
+				}
+			}
+			
+			$(".signal").hover(function(){
+				hovered = $(this);
+				$(this).addClass("active");
+				highlight($(this).html(), 40);	
+			}, function(){
+				unhighlight();
+			});
+			
+			if (iStanza < stanzas.length - 1) {
+				$(".signal").click(function(){
+					wordCount = 1000;
+					iStanza++;
+					document.body.style.backgroundImage="none";
+					$("#stanza").fadeOut(500, function(){
+						$("#stanza").empty();
+						$("#stanza").removeClass("landing");
+						$("#stanza").addClass("story");
+						populate();
+						$("#stanza").fadeIn(800);
+					});
+				});
+			}
+			
+			else {
+				$(".signal").click(function(){
+					location.reload();
+				});
+			}
+		}
+		
+				
+		populate();
+		
+		$("#stanza").append("<p class=\'byline\'>by andy stuhl</p><p class=\'instructions\'>mouse over to find signals<br/>click to move on</p>");
+
+
+		
+	</script>
+
+</body>
+</html>

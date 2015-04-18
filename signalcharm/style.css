@@ -1,0 +1,45 @@
+body {
+	margin: 5px;
+	padding: 0;
+	background-image: url('background.png');
+	background-repeat: no-repeat;
+	background-position: 200px 58px;
+}
+
+#stanza {
+	overflow: hidden;
+	padding: 0px;
+	font: 24px georgia, serif;
+	line-height: 150%;
+	color: #CCCCCC;
+}
+
+.landing {
+	text-align: center;
+	width: 300px;
+	position: absolute;
+	left: 373px;
+	top: 100px;
+}
+
+.story {
+	height: 100%;
+	margin: 0;
+	text-align: justify;	
+}
+
+.signal {
+	cursor: pointer;
+	cursor: hand;
+}
+
+.byline {
+	font-size: 20px;
+	color: #666666;
+	margin-top: 0;
+}
+
+.instructions {
+	font-size: 16px;
+	color: #666666;
+}

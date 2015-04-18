@@ -1,0 +1,14 @@
+body {width: 650px; padding: 20px;}
+
+td {padding-right: 40px;}
+
+.scale {border: 1px solid #666666; margin-left: 70px; margin-top: 20px; margin-bottom: 20px;}
+.scale td {text-align: center; width: 200px;}
+
+.scale p {text-align: center;}
+
+.prompt {padding-left: 40px; padding-bottom: 20px;}
+
+#page1 {display: none;}
+#page2 {display: none;}
+#page3 {display: none;}
