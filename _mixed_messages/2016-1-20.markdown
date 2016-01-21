@@ -4,12 +4,15 @@ title:  "#1"
 date:   2016-1-20 22:00:00
 categories: mixed-messages
 ---
+From Lawrence, KS:
 ![](/assets/mm/1-20-16.jpg) 
 
+From Cambridge, MA:
 <audio controls="controls">
 	<a href="/assets/mm/1-20-16.wav">1-20-16.wav</a>
 	<source src="/assets/mm/1-20-16.wav" type="audio/wav">
 </audio>
+(recorded with stock pot, scarf, wooden ball, SM-57)
 
 <br />
 
