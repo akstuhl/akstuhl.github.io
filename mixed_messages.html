@@ -1,0 +1,28 @@
+---
+layout: plain
+title: "Mixed Messages"
+---
+
+<div class="mixed_messages">
+  
+
+		<!-- <h1 class="page-heading">Stuff:</h1> -->
+		
+	<ul class="post-list">
+	{% for post in site.mixed_messages %}
+		<li>
+		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></a>
+
+		<h2>
+			{{ post.title }}
+		</h2>
+		
+		{{ post.content }}
+
+		</li>
+	{% endfor %}
+	</ul>
+  
+  
+
+</div>

@@ -1,0 +1,16 @@
+---
+layout: plain
+title:  "#1"
+date:   2016-1-20 22:00:00
+categories: mixed-messages
+---
+![](/assets/mm/1-20-16.jpg) 
+
+<audio controls="controls">
+	<a href="/assets/mm/1-20-16.wav">1-20-16.wav</a>
+	<source src="/assets/mm/1-20-16.wav" type="audio/wav">
+</audio>
+
+<br />
+
+***

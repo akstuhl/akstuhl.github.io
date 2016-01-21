@@ -13,5 +13,9 @@ twitter_username: akstuhl
 github_username:  akstuhl
 permalink: none
 
+collections:
+  mixed_messages:
+    output: true
+
 # Build settings
 markdown: kramdown
