@@ -1,7 +1,7 @@
 ---
 layout: plain
 title:  "#1"
-date:   2016-1-20 22:00:00
+date:   2016-01-20
 categories: mixed-messages
 ---
 From Lawrence, KS:
@@ -13,7 +13,5 @@ From Cambridge, MA:
 	<source src="/assets/mm/1-20-16.wav" type="audio/wav">
 </audio>
 (recorded with stock pot, scarf, wooden ball, SM-57)
-
-<br />
 
 ***

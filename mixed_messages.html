@@ -13,7 +13,8 @@ title: "Mixed Messages"
 		<!-- <h1 class="page-heading">Stuff:</h1> -->
 		
 	<ul class="post-list">
-	{% for post in site.mixed_messages %}
+	{% assign sorted = site.mixed_messages | sort: 'date' | reverse %}
+	{% for post in sorted %}
 		<li>
 		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></a>
 
