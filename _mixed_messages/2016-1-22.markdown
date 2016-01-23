@@ -1,0 +1,16 @@
+---
+layout: plain
+title:  "#3"
+date:   2016-01-22
+categories: mixed-messages
+---
+No mail today
+
+From Cambridge, MA:
+<audio controls="controls">
+	<a href="/assets/mm/1-22-16.wav">1-22-16.wav</a>
+	<source src="/assets/mm/1-22-16.wav" type="audio/wav">
+</audio>
+(made with tree frogs, guitar, tape/digital processing)
+
+***
