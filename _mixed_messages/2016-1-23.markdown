@@ -1,0 +1,17 @@
+---
+layout: plain
+title:  "#4"
+date:   2016-01-23
+categories: mixed-messages
+---
+From Lawrence, KS:
+![](/assets/mm/1-23-16.jpg) 
+
+From Cambridge, MA:
+<audio controls="controls">
+	<a href="/assets/mm/1-23-16.wav">1-23-16.wav</a>
+	<source src="/assets/mm/1-23-16.wav" type="audio/wav">
+</audio>
+(made with recordings of voice and paper, digital processing)
+
+***
