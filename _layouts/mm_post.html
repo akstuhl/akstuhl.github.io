@@ -9,8 +9,11 @@
     <div class="page-content">
       <div class="wrapper">
 				<div class="mm_back"><a href="{{ site.baseurl }}/mixed_messages.html">&#8592; Mixed Messages</a></div>
-				
-        {{ content }}
+					<span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span>
+					<h2>
+						{{ page.title }}
+					</h2>
+					{{ content }}
       </div>
     </div>
 

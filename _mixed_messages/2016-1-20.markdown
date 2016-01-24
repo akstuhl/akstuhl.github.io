@@ -1,5 +1,4 @@
 ---
-layout: plain
 title:  "#1"
 date:   2016-01-20
 categories: mixed-messages
