@@ -16,6 +16,15 @@ permalink: none
 collections:
   mixed_messages:
     output: true
+    
+defaults:
+  -
+    scope:
+      path: ""
+      type: "mixed_messages"
+    values:
+      excerpt: Mixed Messages is an ongoing 50-day correspondence between Leigh Kaulbach and Andy Kelleher Stuhl through sound and image.
+      layout: "mm_post"
 
 # Build settings
 markdown: kramdown
