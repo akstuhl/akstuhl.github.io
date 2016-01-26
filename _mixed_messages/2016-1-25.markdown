@@ -1,0 +1,15 @@
+---
+title:  "#6"
+date:   2016-01-25
+categories: mixed-messages
+---
+No mail today
+
+From Cambridge, MA:
+<audio controls="controls">
+	<a href="/assets/mm/1-25-16.wav">1-25-16.wav</a>
+	<source src="/assets/mm/1-25-16.wav" type="audio/wav">
+</audio>
+(made with guitar, recording of cat, feedback loop)
+
+***
