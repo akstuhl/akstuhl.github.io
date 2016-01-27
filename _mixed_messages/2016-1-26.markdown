@@ -1,0 +1,18 @@
+---
+title:  "#7"
+date:   2016-01-26
+categories: mixed-messages
+---
+From Lawrence, KS:
+![](/assets/mm/1-26-16.jpg) 
+
+From Cambridge, MA:
+<audio controls="controls">
+	<a href="/assets/mm/1-26-16.mp3">1-26-16.mp3</a>
+	<source src="/assets/mm/1-26-16.mp3" type="audio/wav">
+</audio>
+(made with guitar, [bonfire recording][1], feedback loop)
+
+[1]: http://freesound.org/people/homejrande/sounds/17375/ "by freesound.org user homejrande"
+
+***

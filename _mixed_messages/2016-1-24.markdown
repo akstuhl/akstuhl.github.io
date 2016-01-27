@@ -7,8 +7,8 @@ No mail today
 
 From Cambridge, MA:
 <audio controls="controls">
-	<a href="/assets/mm/1-24-16.wav">1-24-16.wav</a>
-	<source src="/assets/mm/1-24-16.wav" type="audio/wav">
+	<a href="/assets/mm/1-24-16.mp3">1-24-16.mp3</a>
+	<source src="/assets/mm/1-24-16.mp3" type="audio/wav">
 </audio>
 (recorded with ice water, hot pan, layering)
 

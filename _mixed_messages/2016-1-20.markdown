@@ -8,8 +8,8 @@ From Lawrence, KS:
 
 From Cambridge, MA:
 <audio controls="controls">
-	<a href="/assets/mm/1-20-16.wav">1-20-16.wav</a>
-	<source src="/assets/mm/1-20-16.wav" type="audio/wav">
+	<a href="/assets/mm/1-20-16.mp3">1-20-16.mp3</a>
+	<source src="/assets/mm/1-20-16.mp3" type="audio/wav">
 </audio>
 (recorded with stock pot, scarf, wooden ball, SM-57)
 
