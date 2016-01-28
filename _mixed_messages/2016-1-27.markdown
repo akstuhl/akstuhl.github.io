@@ -1,0 +1,15 @@
+---
+title:  "#8"
+date:   2016-01-27
+categories: mixed-messages
+---
+No mail today
+
+From Cambridge, MA:
+<audio controls="controls">
+	<a href="/assets/mm/1-27-16.mp3">1-27-16.mp3</a>
+	<source src="/assets/mm/1-27-16.mp3" type="audio/wav">
+</audio>
+(recorded with feedback and delay loops)
+
+***
