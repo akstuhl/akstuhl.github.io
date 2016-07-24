@@ -4,7 +4,7 @@
 .site-header {
     //border-top: 5px solid $grey-color-dark;
     margin-top: 5px;
-    
+
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -187,21 +187,45 @@
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
     float: left;
-    
+    position: relative;
+
     @include media-query($on-palm) {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+      width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+      width:         calc(100% - (#{$spacing-unit} / 2));
     	float: none;
     }
+}
+
+.posts-col-fade {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: $spacing-unit * 2.0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 70%);
+
+  @include media-query($on-palm) {
+    display: none;
+  }
 }
 
 .post-list {
     margin-left: 0;
     list-style: none;
+    max-height: 362px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    padding-bottom: $spacing-unit;
+
+    @include media-query($on-palm) {
+      max-height: none;
+      padding-bottom: 0;
+    }
 
     > li {
         margin-bottom: $spacing-unit / 2.0;
-        
+
         > h2 {
         	margin-bottom: 0px;
         }
@@ -223,10 +247,10 @@
 .index-main {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
     width:         calc(50% - (#{$spacing-unit} / 2));
-    float: left;	
+    float: left;
     padding-left: $spacing-unit / 2;
     position: relative;
-    
+
     @include media-query($on-palm) {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
@@ -279,7 +303,7 @@
             font-size: 18px;
         }
     }
-    
+
 	@include media-query($on-full) {
 		img {
 			float: right;
@@ -303,11 +327,11 @@
 	position: absolute;
 	bottom: 0px;
 	left: $spacing-unit / 2;
-	
+
 	a {
 		color: lighten($brand-color, 40%);
 	}
-	
+
 	display: none;
 }
 
@@ -323,7 +347,7 @@
 .mm_back {
 	color: $grey-color;
 	margin-bottom: 12px;
-	
+
 	a {
 		color: $grey-color;
 	}

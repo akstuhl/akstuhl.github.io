@@ -1,12 +1,10 @@
 # Site settings
 title: Andy Kelleher Stuhl
-email: akstuhl@mit.edu
+email: andykstuhl@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a graduate student in [Comparative Media Studies at MIT](http://cmsw.mit.edu/) 
-  and a research assistant in [HyperStudio](http://hyperstudio.mit.edu/).
-  My work centers on creative infrastructures and the politics
-  of sound technologies, which I explore from various angles within
-  sound studies, interaction design, and the digital humanities.
+  I'm a writer, sound artist, and software developer focused on
+  creative infrastructures and the politics of sonic encounters
+  with technology.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://akstuhl.github.io" # the base hostname & protocol for your site
 twitter_username: akstuhl
@@ -16,7 +14,7 @@ permalink: none
 collections:
   mixed_messages:
     output: true
-    
+
 defaults:
   -
     scope:

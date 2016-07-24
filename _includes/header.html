@@ -3,7 +3,7 @@
   <div class="wrapper">
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    
+
     <span class="cv-link"><a href="{{ site.baseurl }}/assets/AndyCV.pdf">CV</a></span>
 
     <nav class="site-nav">
@@ -15,13 +15,6 @@
         </svg>
       </a>
 
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
     </nav>
 
   </div>
