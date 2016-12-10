@@ -5,9 +5,9 @@ date:   2014-12-16 17:15:12
 categories: sound-art
 tagline: "sound artifact"
 ---
-![](/assets/listenToUs.jpg) 
+![](/assets/listenToUs.jpg)
 
-"Listen to Us" is an interactive sound artifact, which I completed as my final project for "Resonance: Sonic Experience, Science, and Art"—a course at MIT taught by [Caroline Jones](http://architecture.mit.edu/faculty/caroline-jones) and [Stefan Helmreich](http://web.mit.edu/anthropology/people/faculty/helmreich.html)—and which was included in the second [Curious Sound Objects](http://curioussoundobjects.com/) show.
+"Listen to Us" is an interactive sound artifact that I completed as my final project for "Resonance: Sonic Experience, Science, and Art"—a course at MIT taught by [Caroline Jones](http://architecture.mit.edu/faculty/caroline-jones) and [Stefan Helmreich](http://web.mit.edu/anthropology/people/faculty/helmreich.html)—and which was included in the second [Curious Sound Objects](http://curioussoundobjects.com/) show.
 
 Marcel Duchamp claimed, "One can look at seeing, one can't hear hearing." Drawing on the work of other sound artists, "Listen to Us" counters Duchamp's fiction with its own fiction: that hearing can be split, shared, resonated and amplified to the point where we can no longer hear anything outside of each other's hearing.
 
@@ -27,4 +27,3 @@ example stereo recording:
 <hr />
 
 [software component](/assets/ListenToUs.ck) written in [ChucK](http://chuck.stanford.edu/)
-
