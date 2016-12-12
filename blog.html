@@ -1,0 +1,25 @@
+---
+layout: page
+title: "Blog"
+excerpt: "Occasional writing on sound, art, and software"
+---
+
+<div class="blog">
+
+	<ul class="post-list">
+	{% assign sorted = site.blog | sort: 'date' | reverse %}
+	{% for post in sorted %}
+		<li>
+		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></a>
+
+		<h2>
+			{{ post.title }}
+		</h2>
+
+		{{ post.content }}
+
+		</li>
+	{% endfor %}
+	</ul>
+  
+</div>

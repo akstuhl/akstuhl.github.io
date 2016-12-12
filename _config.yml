@@ -14,6 +14,8 @@ permalink: none
 collections:
   mixed_messages:
     output: true
+  blog:
+    output: true
 
 defaults:
   -
