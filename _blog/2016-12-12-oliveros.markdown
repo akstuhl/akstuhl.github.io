@@ -2,6 +2,7 @@
 title:  "Reflections on Pauline Oliveros and Software in Art"
 date:   2016-12-12
 categories: blog
+layout: post
 ---
 
 
