@@ -2,7 +2,7 @@
 title: Andy Kelleher Stuhl
 email: andykstuhl@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm a PhD student in Communication Studies at McGill, where I am researching artist and technician responses to automation systems in radio. My work in media research, software development, and sound art explores sites of encounter among technology, humanities, and sonic expression.
+  I'm a PhD student in Communication Studies at McGill, where I am researching the cultural meaning of automation in radio and sound art in the 20th century. My work in media research, software development, and audio experimentation explores sites of encounter among technology, humanities, and sonic expression. I hold a master's in Comparative Media Studies from MIT. Current affiliations include [HASTAC Scholars](https://www.hastac.org/initiatives/hastac-scholars) and the [Grierson Research Group](https://www.griersonresearchgroup.ca/).
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://akstuhl.github.io" # the base hostname & protocol for your site
 twitter_username: akstuhl
