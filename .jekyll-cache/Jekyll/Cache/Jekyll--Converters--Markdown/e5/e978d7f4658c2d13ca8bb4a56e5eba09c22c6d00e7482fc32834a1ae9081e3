@@ -1,0 +1,9 @@
+I"g<p><img src="https://ccrma.stanford.edu/~akstuhl/220a/PushPulse.png" alt="" /></p>
+
+<p>“push/pulse” is an instrument system which uses pitch tracking to turn a directional microphone into a sort of conducting wand for a set of speakers. Each speaker pulses a stable clarinet pitch (these pitches can be changed at any time during performance with a MIDI keyboard) and gradually speeds up when its pitch is recognized in the microphone’s signal. A speaker whose pitch is not identified will gradually return to the base pulse rate. Parameters such as decay and restoration factors, base pulse and gap rates, and randomized velocity fluctuation can also be controlled mid-performance via MIDI faders.</p>
+
+<hr />
+
+<p><a href="https://ccrma.stanford.edu/~akstuhl/220a/PushPulse.ck">software component</a> written in <a href="http://chuck.stanford.edu/">ChucK</a></p>
+
+:ET

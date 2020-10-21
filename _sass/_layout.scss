@@ -312,6 +312,14 @@
 			width: $post-main-image-width;
 			margin: -110px (-$post-main-image-width / 2) 15px 15px;
 		}
+
+    .images-inline img {
+      float: none;
+      width: auto;
+      height: $post-sub-image-height;
+      margin: 1px 0;
+    }
+
     }
 }
 

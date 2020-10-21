@@ -1,0 +1,25 @@
+Earlier this week, OpenAI debuted [Jukebox](https://openai.com/blog/jukebox/), "a neural net that generates music, including rudimentary singing, as raw audio in a variety of genres and artist styles." _Raw audio_ here means the system digests and generates sound files without parsing data through a set of pre-settled concepts like notes or instruments. By all accounts, it seems like a 
+It's my opinion that these large-organization AI music projects indicate much less about the future of music than they do about those organizations—and about technological and public relations facets of the ongoing contest among them.
+
+### 1) Does anyone actually want to listen to an AI-generated song (as music-for-music's-sake)?
+
+Artists critiquing automated music have often pointed out, rightly, the many facets of musical activity that generate meaning for its participants outside of the direct production, distribution, and consumption of a recording. [Zola Jesus Grimes rant?] I very much agree with these points, but I would contend (maybe too optimistically) that the "music listening public," for lack of a better formulation, isn't as adverse to recognizing those sources of value as the critics tend to imply. Not even the AI ventures are actively adverse to those facets: the discourse they advance doesn't generate statements like "finally we'll be able to liberate listeners from the uncomfortable notion that human bodies made the songs they're hearing." Instead, it's a naive and friendly discourse of democratization
+
+### 2) What is it about music that big tech finds so appealing in treating it as a testing ground for public reception of machine intelligence applications?
+
+Even if we suppose that an AI-generated song/album could gain commercial traction at a musical scale, it's hard to imagine that automating musical composition would be a major financial priority for Amazon, Google, or Microsoft. True, platform companies have been testing ways to capture the expense and liability that externally authored music catalogs present; as with Uber's ventures in predatory vehicle-leasing and in self-driving car technology, platforms like Spotify pursue both vertical integration and automation as joint responses to this problem. But compare the total amount that [Amazon/Spotify] paid in music royalties in [2019]—[amount]—to its [bid to build the "War Cloud"]
+
+We might say, rather dramatically, that AI Frank Sinatra has walked out to mixed reception in the hopes that AI Douglas MacArthur can one day stride forth to grateful applause.
+
+Technologically, music is a thorny "problem" in
+
+Socially, music is a domain with broad reach and low cultural barriers to legibility and participation, at least compared to the present social formations in other art modes like the gallery/exhibition circuit for visual arts. It tends to esteem novelty and innovation, and it has been marked by near-continual technical and financial upheaval since the not-very-distant beginnings of sound recording.
+
+Holly Herndon has sounded the alarm and compared
+https://twitter.com/hollyherndon/status/1257285746316230658
+
+## 3) So is it working?
+
+Google's "boundary object" approach as much more informed/careful version of an effort with at least overlapping interests to OpenAI's etc.
+
+involves building good will by hiring artists to make art and instruments, and direct social processes by integrating Google into a music or music-technology milieu [e.g. at Ableton Link or Mutek]

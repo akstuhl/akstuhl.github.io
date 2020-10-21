@@ -1,0 +1,21 @@
+---
+layout: page
+excerpt: "Tracking pizza attempts"
+---
+
+<div class="blog">
+
+	<ul class="post-list images-inline">
+	{% assign sorted = site.pie | sort: 'date' | reverse %}
+	{% for post in sorted %}
+		<li>
+		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></a>
+
+		{{ post.content }}
+
+    <hr />
+		</li>
+	{% endfor %}
+	</ul>
+
+</div>
