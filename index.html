@@ -1,53 +1,8 @@
 ---
-layout: default
+layout: index
 ---
 
-<div class="home">
-
-  <div class="posts-col">
-
-  	  <!-- <h1 class="page-heading">Stuff:</h1> -->
-
-	  <ul class="post-list">
-      <li>
-        <h2>
-          <a class="post-link" target="_blank" href="https://amodern.net/article/sensate-sovereignty/">Sensate Sovereignty</a>
-        </h2>
-        <span class="post-meta">collaborative book review</span>
-      </li>
-      <li>
-        <h2>
-          <a class="post-link" target="_blank" href="http://containmentandintimacy.ca/abstracts.html">Containment + Intimacy</a>
-        </h2>
-        <span class="post-meta">conference plan + website</span>
-      <li>
-        <h2>
-          <a class="post-link" target="_blank" href="https://soundstudiesblog.com/2017/06/19/so-reads-damon-krukowskis-the-new-analog/">Review: <em>The New Analog</em></a>
-        </h2>
-        <span class="post-meta">book review</span>
-      </li>
-		{% for post in site.posts %}
-		  <li>
-			<!--<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>-->
-
-			<h2>
-			  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</h2>
-
-			<span class="post-meta">{{ post.tagline }}</span>
-
-		  </li>
-		{% endfor %}
-	  </ul>
-
-	  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
-
-    <div class="posts-col-fade"></div>
-  </div>
-
-  <div class="index-main captioned">
-  	  <img src="/assets/andy.jpg">
-  	  <span class="caption">photo by Jin Zhu (<a href="http://www.killeryellow.com/">killeryellow.com</a>)</span>
-  </div>
-
+<div class='bio'>
+  <img src="/assets/andy.jpg" alt="photo of me in a radio studio" class="bio-pic">
+  {{ site.description | markdownify }} <span class='pic-credit'>photo by <a href="https://www.jinzhustudio.com/">Jin Zhu</a></span>
 </div>

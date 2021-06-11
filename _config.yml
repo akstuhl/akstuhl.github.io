@@ -10,6 +10,9 @@ github_username:  akstuhl
 soundcloud_username: andykstuhl
 permalink: none
 
+plugins:
+  - jekyll-target-blank
+
 collections:
   mixed_messages:
     output: true
@@ -17,6 +20,8 @@ collections:
     output: true
   pie:
     output: true
+  index_items:
+    output: false
 
 defaults:
   -
@@ -26,6 +31,17 @@ defaults:
     values:
       excerpt: Mixed Messages is a 40-day correspondence between Leigh Kaulbach and Andy Kelleher Stuhl through sound and image.
       layout: "mm_post"
+
+stuff_lists:
+  -
+    slug: stuff-done
+    heading: "Stuff I've done"
+  -
+    slug: stuff-doing
+    heading: "Stuff I'm doing"
+  -
+    slug: stuff-using
+    heading: "Stuff I use"
 
 # Build settings
 markdown: kramdown

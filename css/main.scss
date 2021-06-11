@@ -6,8 +6,8 @@
 
 
 // Our variables
-$base-font-family: Georgia, Times, serif;
-$base-font-size:   16px;
+$base-font-family: serif;
+$base-font-size:   18px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -26,13 +26,16 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-$on-full:		   1000px;
+$on-full:		       900px;
 
 // my additions
+$base-font-family-sans: Arial;
+
 $post-main-image-width: 350px;
 $post-sub-image-height: 300px;
 
-
+$dark-mode-text-color: #ddd;
+$dark-mode-background-color: #232323;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
@@ -58,5 +61,6 @@ $post-sub-image-height: 300px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "index"
 ;
