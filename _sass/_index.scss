@@ -1,5 +1,5 @@
 $index-spacing-unit: $spacing-unit * 0.66;
-$bio-pic-height: 220px;
+$bio-pic-height: 180px;
 
 @include media-query($on-full) {
 
@@ -16,7 +16,6 @@ $bio-pic-height: 220px;
     }
 
     .stuff-list {
-      // grid-row: 1;
       overflow-y: scroll;
       scrollbar-width: none;
       ul {
@@ -33,12 +32,12 @@ $bio-pic-height: 220px;
       margin: 0;
       grid-column: 1 / 3;
       grid-row: -2;
-      padding-right: $spacing-unit;
+      padding-right: $index-spacing-unit;
       border: none;
 
       img.bio-pic {
         float: left;
-        margin-right: $spacing-unit;
+        margin-right: $index-spacing-unit;
       }
     }
 

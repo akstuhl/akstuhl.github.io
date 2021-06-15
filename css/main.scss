@@ -36,6 +36,7 @@ $post-sub-image-height: 300px;
 
 $dark-mode-text-color: #ddd;
 $dark-mode-background-color: #232323;
+$dark-mode-lighter-background: lighten($dark-mode-background-color, 20%);
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

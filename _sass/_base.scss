@@ -145,6 +145,11 @@ code {
     border: 1px solid $grey-color-light;
     border-radius: 3px;
     background-color: #eef;
+
+    @media(prefers-color-scheme: dark) {
+      background-color: #556;
+      border-color: #000;
+    }
 }
 
 code {

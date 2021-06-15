@@ -19,4 +19,6 @@ Computing and/as memory (Chun)
 
 Inventory control (Danyluk, "Capital's logistical fix")
 
+Lean production / post-Fordism and supply chain management systems (Nick Dyer-Witherford, _Cyber-Proletariat: Global Labor in the Digital Vortext_, p.49–53)
+
 In contemporary media systems, the buffer is a constitutive limit to the premise/promise of on-demand content. The same can be said of contemporary distribution systems more broadly, substituting material goods for "content" and "inventory control" for the technique of buffering.
