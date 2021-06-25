@@ -13,9 +13,10 @@
         {% for item in items %}
           <li tabindex='0'>
             <div class='summary'>
-              {{ item.tagline | markdownify }}
+              {{ item.tagline | markdownify | remove: "<p>" | remove: "</p>" }} <span class='icons'>{{ item.icons }}</span>
             </div>
             <div class='expanded'>
+              <span class='icons'>{{ item.icons }}</span>
               {{ item.content }}
             </div>
           </li>
