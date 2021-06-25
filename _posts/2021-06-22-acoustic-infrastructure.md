@@ -8,7 +8,7 @@ tagline: "journal article"
 
 ![](/assets/EAS-img.jpg)
 
-I contributed an article on the Emergency Alert System in American broadcast radio to a special issue – "Materials and Media of Infrastructures" – of the _Canadian Journal of Communication_. The article is available [here](https://cjc-online.ca/index.php/journal/article/view/3783) with institutional/subscriber access, or [here](/assets/Stuhl-EAS.pdf) in its pre-proof form.
+I contributed an article on the Emergency Alert System in American broadcast radio to a special issue – "[Materials and Media of Infrastructures](https://cjc-online.ca/index.php/journal/issue/view/193)" – of the _Canadian Journal of Communication_. The article is available [here](https://cjc-online.ca/index.php/journal/article/view/3783) with institutional/subscriber access, or [here](/assets/Stuhl-EAS.pdf) in its pre-proof form.
 
 > ### Acoustic Infrastructure: The Sounds and Politics of Radio Tests in American Emergency Broadcasting
 
