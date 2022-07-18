@@ -328,8 +328,12 @@
     }
 }
 
+/* add captions to photos/figures by following ![](image.png) with *caption* */
+img + em {
+  display: block
+}
 
-
+/* obsolete */
 .caption {
 	width: -webkit-calc(100% - (#{$spacing-unit}));
     width:         calc(100% - (#{$spacing-unit}));
