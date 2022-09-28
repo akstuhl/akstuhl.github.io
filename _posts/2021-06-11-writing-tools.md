@@ -31,6 +31,22 @@ A couple simple shell scripts, attached to keyboard shortcuts using gedit's "Man
     ```bash
     pbpaste | tr '[\n\r]' ' ' | sed -E -e "s/- //g" -e "s/[ \t]*$//" -e "s/[\"\“\”]|[\’\‘]+/\'/g"
     ```
+    
+- Wrap selection
+
+    Requires `zenity`, a GTK feature; untested outside GNOME. Prompts you for a bracket character or other string and appends it to either side of the selected text. (Handy for adding emphasis or hyperlinks to markdown text.) Set "Input" to "Current selection" and "Output" to "Replace current selection."
+    
+    ```bash
+    read selection
+
+    wrapper=$(zenity --entry --title="Wrap selection - gedit" --text="Wrapper:")
+
+    wrapend=$(echo "$wrapper" | sed 's/\[/\]/g
+                                     s/(/)/g
+                                     s/</>/g')
+
+    echo -n "$wrapper$selection$wrapend"
+    ```
 
 - [`wc-tracker`](https://www.npmjs.com/package/wc-tracker) is a command line tool and Node.js module for tracking word count changes to one or more documents.
 

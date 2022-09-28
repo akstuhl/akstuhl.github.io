@@ -1,8 +1,8 @@
 ---
-category: stuff-doing
-date: 2021-09-01
+category: stuff-done
+date: 2022-05-31
 tagline: 'Wave Farm radio art fellowship'
 icons: '📡 🎨'
 ---
 
-Archiving and producing artworks for broadcast radio as [Wave Farm](https://wavefarm.org/)'s 2021-22 Radio Artist Fellow
+Archived and produced artworks for broadcast radio as Wave Farm's [2021-22 Radio Artist Fellow](https://wavefarm.org/radio/wgxc/calendar/x1x6q0)
