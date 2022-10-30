@@ -22,6 +22,8 @@ collections:
     output: true
   index_items:
     output: false
+  tuning:
+    output: false
 
 defaults:
   -
