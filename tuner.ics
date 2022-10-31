@@ -28,11 +28,11 @@ UID:{{ show.slug }}@akstuhl.net
 ORGANIZER;CN="Andy's radio tuner":MAILTO:andykstuhl@gmail.com
 LOCATION:{{ site.data.stations[show.station] }}
 SUMMARY:{{ show.name | remove: ',' | remove: ';' }}
-DESCRIPTION:{{ show.content }}{{ show.more }}
+DESCRIPTION:{{ show.content | strip_html }} {{ show.more }}
 CLASS:PUBLIC
-RRULE:FREQ={{ show.frequency | upcase }};BYDAY={{ show.day | truncate: 2, "" }}
-DTSTART;TZID=America/Toronto:20221001T{{ show.start | remove: ':' }}
-DTEND;TZID=America/Toronto:20221001T{{ show.end | remove: ':' }}
+RRULE:FREQ={{ show.frequency | upcase }};BYDAY={{ show.day | truncate: 2, "" | upcase }}
+DTSTART;TZID=America/Toronto:20221001T{{ show.start | date: "%H%M" }}
+DTEND;TZID=America/Toronto:20221001T{{ show.end | date: "%H%M" }}
 CREATED:{{ show.added | date: "%Y%m%d" }}T170000Z
 END:VEVENT{% endfor %}
 END:VCALENDAR

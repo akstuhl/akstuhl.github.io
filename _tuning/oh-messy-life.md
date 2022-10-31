@@ -3,8 +3,8 @@ day: Wednesday
 frequency: weekly
 name: "Oh Messy Life"
 station: KZSU
-start: 19:00
-end: 18:00
+start: "19:00"
+end: "20:00"
 added: 2022-10-29
 more: https://ohmessy.life/
 ---
