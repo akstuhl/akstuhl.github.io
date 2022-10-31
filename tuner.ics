@@ -31,8 +31,8 @@ SUMMARY:{{ show.name | remove: ',' | remove: ';' }}
 DESCRIPTION:{{ show.content | strip_html }} {{ show.more }}
 CLASS:PUBLIC
 RRULE:FREQ={{ show.frequency | upcase }};BYDAY={{ show.day | truncate: 2, "" | upcase }}
-DTSTART;TZID=America/Toronto:20221001T{{ show.start | date: "%H%M" }}
-DTEND;TZID=America/Toronto:20221001T{{ show.end | date: "%H%M" }}
+DTSTART;TZID=America/Toronto:20221001T{{ show.start | date: "%H%M%S" }}
+DTEND;TZID=America/Toronto:20221001T{{ show.end | date: "%H%M%S" }}
 CREATED:{{ show.added | date: "%Y%m%d" }}T170000Z
 END:VEVENT{% endfor %}
 END:VCALENDAR
