@@ -2,6 +2,7 @@
 title: "Medium metadiscourse on Mastodon and in radio"
 date:  2022-11-01
 categories: blog
+layout: post
 ---
 
 It's been very fun and heartening in the last week to see a big wave of people I followed on Twitter moving over to open source federated alternatives, namely Mastodon (or its fork [Hometown](https://github.com/hometown-fork/hometown), in my case). There are a lot of good blog posts making the rounds where people offer tips on getting oriented in the fediverse and reflections on its differences from Twitter; this is not one of those. Rather, I want to reflect on this present and probably brief period where such a huge portion of what people are posting on Mastodon is _about_ Mastodon – this moment of lively medium metadiscourse as people help each other explore a new kind of communication channel.
