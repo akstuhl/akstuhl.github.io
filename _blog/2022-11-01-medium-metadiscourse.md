@@ -20,7 +20,7 @@ The twist I'd add, following from a few years of researching American radio sinc
 One narrative frame I'm testing out as a generalization from radio automation's history goes something like this:
 
 - A medium is emergent; its socio-technical protocols are open to and in need of definition
-- Protocols stabilize to a point that they become "transparent;" it succeeds as a medium
+- Protocols stabilize to a point that they become "transparent;" they succeed as a medium
 - Protocols and routines become so stable that many of them can be automated
 - A feedback loop of automation and capitalist predation can begin to strip out the internal work that differentiates meaningful channels within the medium, increasing its homogeneity 
 - Users/audiences and capitalists increasingly abandon the medium

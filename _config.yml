@@ -5,7 +5,6 @@ description: > # this means to ignore newlines until "baseurl:"
   I'm a media researcher, software developer, and audio experimenter. Right now I'm a PhD candidate in Communication Studies at McGill, where my dissertation traces the cultural meaning of automation in radio and sound art.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://akstuhl.github.io" # the base hostname & protocol for your site
-twitter_username: akstuhl
 github_username:  akstuhl
 soundcloud_username: andykstuhl
 permalink: none
