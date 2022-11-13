@@ -1,5 +1,5 @@
 ---
-day: Wednesday
+day: Thursday
 frequency: weekly
 name: "Oh Messy Life"
 station: KZSU
