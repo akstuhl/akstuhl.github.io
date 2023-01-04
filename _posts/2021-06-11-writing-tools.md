@@ -15,7 +15,7 @@ A couple simple shell scripts, attached to keyboard shortcuts using gedit's "Man
     Requires [Better BibTeX for Zotero](https://retorque.re/zotero-better-bibtex/). Launches a Zotero bibliographic entry picker and inserts the citation key into your document once you make a selection. Set "Output" to "Insert at cursor position."
   
     ```bash
-    curl -s http://127.0.0.1:23119/better-bibtex/cayw
+    curl -s http://127.0.0.1:23119/better-bibtex/cayw?format=pandoc\&brackets=true
     ```
   
 - PDF paste
@@ -38,13 +38,10 @@ A couple simple shell scripts, attached to keyboard shortcuts using gedit's "Man
     
     ```bash
     read selection
-
     wrapper=$(zenity --entry --title="Wrap selection - gedit" --text="Wrapper:")
-
     wrapend=$(echo "$wrapper" | sed 's/\[/\]/g
                                      s/(/)/g
                                      s/</>/g')
-
     echo -n "$wrapper$selection$wrapend"
     ```
 
