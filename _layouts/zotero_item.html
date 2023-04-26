@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<p><a href="index.html">&larr; Back to radio automation timeline</a></p>
+
+<h2>{{ page.title }} ({{ page.date | date: "%Y" }})</h2>
+
+{{ content }}
+
+{% if page.source_url %}
+  <a target="_blank" href="{{ page.source_url }}">
+    {{ page.item_type }}
+    {% if page.library_catalog %}
+      via {{ page.library_catalog }}
+    {% endif %}
+  </a>
+{% endif %}

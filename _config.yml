@@ -19,6 +19,8 @@ collections:
     output: true
   pie:
     output: true
+  radio_automation:
+    output: true
   index_items:
     output: false
   tuning:
