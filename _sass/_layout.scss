@@ -371,3 +371,19 @@ img + em {
 		color: $grey-color;
 	}
 }
+
+table.timeline {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+.timeline th, .timeline td {
+  padding: 15px 20px;
+  border: 1px solid black;
+}
+
+.timeline p {
+  padding: 0;
+  margin: 0;
+}

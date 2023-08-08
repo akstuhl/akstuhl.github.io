@@ -2,7 +2,7 @@
 layout: zotero_item
 title: "Some techniques in automatic programming"
 date: 1956-01-01
-source_url: undefined
+source_url: https://doi.org/10.1109/TPGBTS.1956.4505180
 item_type: "Article"
 library_catalog: "IEEE Xplore"
 ---

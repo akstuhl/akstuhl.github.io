@@ -8,11 +8,14 @@ layout: default
 
 {{ content }}
 
-{% if page.source_url %}
+{% if page.source_url and page.source_url != "undefined" %}
   <a target="_blank" href="{{ page.source_url }}">
+{% endif %}
     {{ page.item_type }}
     {% if page.library_catalog %}
       via {{ page.library_catalog }}
     {% endif %}
+{% if page.source_url and page.source_url != "undefined" %}
   </a>
 {% endif %}
+
