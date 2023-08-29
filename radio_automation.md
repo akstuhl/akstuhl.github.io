@@ -36,16 +36,3 @@ This timeline/bibliography gathers some primary sources relevant to the history 
 </tbody>
 </table>
 
-[mark things as open/closed access, or only include open access; or "include paywalled links" is a toggle]
-
-[25 Hz link/note]
-
-[show only: DH/min view]
-Items with citation data are each hyperlinked to a single-entry page for convenience of importing with a citation manager like Zotero.
-
-- Russo cite for tape carts?
-- IBM logging system (Razlogova cite)?
-- 1953 Tinkham paper
-- 1954 Broadcasting on Vandivere
-- 1955 NAB
-- Vandivere paper

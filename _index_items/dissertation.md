@@ -5,4 +5,4 @@ tagline: "Automation and Art in American Radio"
 icons: '🤖 📻'
 ---
 
-Conducting archival research and interviews for my dissertation, tentatively titled "Automation and Art in American Radio, 1950–2010"
+Completing a dissertation on the cultural and technical history of [automation in American radio](/radio_automation) and sonic arts from 1953 to 2010
