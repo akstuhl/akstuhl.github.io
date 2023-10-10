@@ -8,6 +8,7 @@ layout: default
 
 {{ content }}
 
+<span class="source-catalog">
 {% if page.source_url and page.source_url != "undefined" %}
   <a target="_blank" href="{{ page.source_url }}">
 {% endif %}
@@ -18,4 +19,5 @@ layout: default
 {% if page.source_url and page.source_url != "undefined" %}
   </a>
 {% endif %}
+</span>
 
