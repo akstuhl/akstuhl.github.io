@@ -208,11 +208,7 @@ Work</span>,”</span> <em>The Information Society</em> 31, no. 2 (March
 </ul>
 <h4 id="week-9-zooming-back-out">Week 9: Zooming back out</h4>
 <ul>
-<li>March 12: <span class="citation"
-data-cites="elzwayWhenceAutomationHistoryForthcoming">Salem Elzway and
-Jason Resnikoff, <span>“Whence <span>Automation</span>?: <span>The
-History</span> (and <span>Possible Futures</span>) of a
-<span>Concept</span>,”</span> <em>Labor</em>, Forthcoming.</span></li>
+<li>March 12: TBD</li>
 <li>March 14: <strong>No class</strong>—individual project check-ins
 this week</li>
 </ul>
