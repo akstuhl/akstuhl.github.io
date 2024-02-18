@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h3>{{ page.tagline }}</h3>
+  </header>
+
+  <article class="post-content">
+    <div class="images-inline">
+      {{ content | strip_newlines }} ({{ page.date | date: "%b %-d, %Y" }})
+    </div>
+  </article>
+
+</div>

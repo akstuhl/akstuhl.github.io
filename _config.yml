@@ -21,8 +21,8 @@ collections:
     output: true
   radio_automation:
     output: true
-  index_items:
-    output: false
+  stuff:
+    output: true
   tuning:
     output: false
 
@@ -34,6 +34,12 @@ defaults:
     values:
       excerpt: Mixed Messages is a 40-day correspondence between Leigh Kaulbach and Andy Kelleher Stuhl through sound and image.
       layout: "mm_post"
+  -
+    scope:
+      path: ""
+      type: "stuff"
+    values:
+      layout: "stuff-item"
 
 stuff_lists:
   -

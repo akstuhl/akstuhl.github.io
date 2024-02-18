@@ -9,7 +9,7 @@
       <div class='stuff-list'>
         <h3>{{ list.heading }}</h3>
         <ul>
-        {% assign items = site.index_items | where: 'category', list.slug | reverse %}
+        {% assign items = site.stuff | where: 'category', list.slug | reverse %}
         {% for item in items %}
           <li tabindex='0'>
             <div class='summary'>
