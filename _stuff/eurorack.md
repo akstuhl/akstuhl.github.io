@@ -5,4 +5,4 @@ tagline: "Eurorack"
 icons: '🎛 🎶'
 ---
 
-Writing about the Eurorack synth format in the contexts of digital labor and logistical media
+With Jonathan Sterne, writing about the Eurorack synth format in the contexts of digital labor and logistical media

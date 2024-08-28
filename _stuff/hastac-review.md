@@ -5,4 +5,4 @@ tagline: "Collective review: <em>Putting the Humanities PhD to Work</em>"
 icons: '📘 🛠'
 ---
 
-Contributed with other HASTAC scholars to a [collective review](https://www.hastac.org/collections/collaborative-book-discussion-putting-humanities-phd-work-dr-katina-rogers) of Katina Rogers's _Putting the Humanities PhD to Work_
+Contributed with other HASTAC scholars to a [collective review](https://web.archive.org/web/20220524022606/https://www.hastac.org/blogs/akstuhl/2021/03/16/chapter-1-academic-workforce-expectations-and-realities) of Katina Rogers's _Putting the Humanities PhD to Work_
