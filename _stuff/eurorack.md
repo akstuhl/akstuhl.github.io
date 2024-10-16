@@ -1,8 +1,8 @@
 ---
-category: stuff-doing
-date: 2020-11-01
-tagline: "Eurorack"
-icons: '🎛 🎶'
+category: stuff-done
+date: 2024-10-16
+tagline: "Article: Eurorack in a Logistical World"
+icons: '🎛 🌐️'
 ---
 
-With Jonathan Sterne, writing about the Eurorack synth format in the contexts of digital labor and logistical media
+With Jonathan Sterne, published ["When a Format (Almost) Becomes an Instrument: Eurorack in a Logistical World" ](https://quod.lib.umich.edu/cgi/t/text/idx/j/jcms/18261332.0063.518/--when-a-format-almost-becomes-an-instrument-eurorack?rgn=main;view=fulltext) in _JCMS_
