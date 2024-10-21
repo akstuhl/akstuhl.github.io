@@ -1,6 +1,6 @@
 ---
 category: stuff-doing
-date: 2023-09-30
+date: 2024-06-21
 tagline: "Automation and Art in American Radio"
 icons: '🤖 📻'
 ---
