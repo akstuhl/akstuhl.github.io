@@ -14,9 +14,10 @@ Instructions for running _stream eddies_ are attached to its [code repository](h
 
 The motivation for _stream eddies_ comes through thinking about streaming-first (instead of recording-first) approaches to working with sound. A challenge when working with streams (by which I mean ongoing sound sources, e.g. a radio or a livestream of birds) is that you might want to be able to tap into, at any point in time, a given source and have it **sound like** that source. That is, the birds may only be vocalizing a third of the time, leaving you with only silence or background noise when you might expect to be able to access a "bird" sound. Time-stretching and texture synthesizing are good ways of removing momentary silences from a signal, but they don't necessarily aim to amplify its essence. _Stream eddies_ tries out a naive idea that automatic classification might be able to detect and then distill that kind of essence by repeating the most characteristic sounds most often. Of course, the logic that the classifier imposes on the sonic world distorts and narrows it dramatically – in the case of this Google/IBM classifier, the taxonomy of labels and the training models come exclusively from an arbitrary set of YouTube videos. The software, then, while fairly effective in condensing a sparse incoming signal into more readily available sound, is more interesting as a way to _listen to machine listening_ in all its confused and reductive fervor.
 
-I riffed on _stream eddies_ in a contribution to [_Flitr_](https://cachedmedia.bandcamp.com/album/flitr), a research initiative by [cached.media](https://cached.media/). (Many thanks to M. Sage for the inclusion.)
+I riffed on _stream eddies_ in a contribution to _Flitr_, a research initiative by [cached.media](https://cached.media/). (Many thanks to M. Sage for the inclusion.)
 
-<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=152145347/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/track=1918647130/transparent=true/" seamless><a href="https://cachedmedia.bandcamp.com/album/flitr">Flitr by Andy Stuhl</a></iframe>
+<audio controls src="/assets/streameddies_flitr.ogg"></audio>
+
 <br/>
 
 Here is an example of _stream eddies_ processing a slowly station-hopping FM radio in southwestern Ireland in 2019:
