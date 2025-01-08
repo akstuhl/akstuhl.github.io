@@ -1,6 +1,6 @@
 ---
 title: "Meta-influencers and automation as wedge"
-date: 2025-01-07
+date: 2025-01-08
 categories: blog
 layout: post
 ---
