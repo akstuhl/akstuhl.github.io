@@ -15,7 +15,9 @@ excerpt: "Occasional writing on sound, art, and software"
 			{{ post.title }}
 		</h2>
 
-		{{ post.content }}
+		{{ post.content | truncatewords: 120 }}
+		
+		<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
 
 		</li>
 	{% endfor %}
