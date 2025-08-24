@@ -5,4 +5,4 @@ tagline: 'Machine listening'
 icons: 💻️ 👂️
 ---
 
-Researching, with Mehak Sawhney and Jonathan Sterne, how practioners in sonic AI and its subfields conceive of listening
+Researching, with Mehak Sawhney and other collaborators assembled by Jonathan Sterne, how practitioners in sonic AI and its subfields conceive of listening
