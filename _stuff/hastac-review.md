@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: writing
 date: 2021-03-16
 tagline: "Collective review: <em>Putting the Humanities PhD to Work</em>"
 icons: '📘 🛠'

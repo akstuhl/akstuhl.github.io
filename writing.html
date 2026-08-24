@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+<h2>Writing/research activity</h2>
+
+<ul>
+
+{% assign sorted = site.stuff | where: 'tag', 'writing' | reverse %}
+{% for item in sorted %}
+
+	<li>{{item.content}}</li>
+
+{% endfor %}
+
+</ul>

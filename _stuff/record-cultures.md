@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: writing
 date: 2024-03-08
 tagline: "Book review: _Record Cultures_"
 icons: '📘 ⏺️'

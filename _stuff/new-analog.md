@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: writing
 date: 2017-06-19
 tagline: "Book review: _The New Analog_"
 icons: '📘 🎙'

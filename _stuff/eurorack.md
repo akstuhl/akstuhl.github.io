@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: writing
 date: 2024-10-16
 tagline: "Article: Eurorack in a Logistical World"
 icons: '🎛 🌐️'

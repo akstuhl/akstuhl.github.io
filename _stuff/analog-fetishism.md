@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: writing
 date: 2014-11-01
 tagline: 'Article: "Analog Fetishism"'
 icons: 🎙 🎚

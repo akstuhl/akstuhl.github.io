@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: writing
 date: 2016-07-23
 tagline: 'MS thesis: "Listening in Code"'
 icons: '🎧 🎛'

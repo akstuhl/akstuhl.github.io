@@ -5,25 +5,6 @@
     <div class='index'>
       {% include header.html %}
       {{ content }}
-      {% for list in site.stuff_lists %}
-      <div class='stuff-list'>
-        <h3>{{ list.heading }}</h3>
-        <ul>
-        {% assign items = site.stuff | where: 'category', list.slug | reverse %}
-        {% for item in items %}
-          <li tabindex='0'>
-            <div class='summary'>
-              {{ item.tagline | markdownify | remove: "<p>" | remove: "</p>" }} <span class='icons'>{{ item.icons }}</span>
-            </div>
-            <div class='expanded'>
-              <span class='icons'>{{ item.icons }}</span>
-              {{ item.content }}
-            </div>
-          </li>
-        {% endfor %}
-        </ul>
-      </div>
-      {% endfor %}
       <hr />
       <div class='contact'>
         {% include contact_list.html %}

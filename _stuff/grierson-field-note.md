@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: writing
 date: 2021-02-02
 tagline: 'Field note: "The Automation Tapes"'
 icons: '🤖 📼'

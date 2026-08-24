@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: writing
 date: 2023-10-09
 tagline: "Article: Google Radio Automation"
 icons: '☁️ 📻'

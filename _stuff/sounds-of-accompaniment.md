@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: writing
 date: 2022-09-20
 tagline: 'Field note: "Sounds of Accompaniment"'
 icons: '🎶️ 🦾️'

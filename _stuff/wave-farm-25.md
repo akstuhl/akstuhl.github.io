@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: writing
 date: 2022-10-26
 tagline: 'Essay: "A History of Wave Farm at 25"'
 icons: '📡️ ⏳️' 

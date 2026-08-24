@@ -1,5 +1,6 @@
 ---
 category: stuff-doing
+tag: writing
 date: 2024-06-21
 tagline: "Automation and Art in American Radio"
 icons: '🤖 📻'

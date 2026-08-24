@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: etc
 date: 2022-05-31
 tagline: 'Wave Farm radio art fellowship'
 icons: '📡 🎨'

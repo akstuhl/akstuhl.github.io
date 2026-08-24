@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: writing
 date: 2024-12-11
 tagline: "Book review: _Narrative Podcasting_"
 icons: '📘 🎧️'

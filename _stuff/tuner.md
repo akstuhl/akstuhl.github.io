@@ -1,5 +1,6 @@
 ---
 category: stuff-using
+tag: etc
 date: 2023-08-29
 tagline: "A radio tuner"
 icons: '🕐️ 📻️'

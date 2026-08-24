@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: writing
 date: 2024-09-16
 tagline: "Book review: _Making Stereo Fit_"
 icons: '📘 🎞️'

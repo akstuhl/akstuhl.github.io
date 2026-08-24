@@ -1,5 +1,6 @@
 ---
 category: stuff-using
+tag: etc
 date: 2021-06-10
 tagline: "Plain text writing tools"
 icons: '📃 ✍️'

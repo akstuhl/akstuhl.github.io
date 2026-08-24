@@ -1,0 +1,16 @@
+---
+layout: page
+---
+
+<h2>Other activity: sounds, software, etc.</h2>
+
+<ul>
+
+{% assign sorted = site.stuff | where: 'tag', 'etc' | reverse %}
+{% for item in sorted %}
+
+	<li>{{item.content}}</li>
+
+{% endfor %}
+
+</ul>

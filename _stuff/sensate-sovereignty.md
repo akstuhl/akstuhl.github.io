@@ -1,5 +1,6 @@
 ---
 category: stuff-done
+tag: writing
 date: 2020-07-22
 tagline: "Collective review: _Hungry Listening_"
 icons: 📘 👂
